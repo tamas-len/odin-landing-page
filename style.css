@@ -6,6 +6,8 @@
 
 .logo {
     font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 ul {
@@ -20,5 +22,43 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.first-part {
+    background-color: #1f2937;
+}
+
+.first-content {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    /* border: 4px solid red; */
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 500px;
+    /* border: 2px solid red; */
+}
+
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
 }
