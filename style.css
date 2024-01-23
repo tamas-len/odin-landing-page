@@ -33,12 +33,16 @@ a {
 .first-content {
     display: flex;
     justify-content: center;
+    gap: 32px;
+    padding: 128px;
 }
 
 .image {
     /* border: 4px solid red; */
     width: 500px;
     height: 200px;
+    background-color: aqua;
+    opacity: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,4 +65,9 @@ a {
 .secondary-text {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+button {
+    background-color: #3882f6;
+    color:#f9faf8;
 }
