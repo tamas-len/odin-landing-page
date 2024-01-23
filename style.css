@@ -1,11 +1,17 @@
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 8px 128px;
+}
+
+.logo {
+    font-weight: bold;
 }
 
 ul {
     display: flex;
     justify-content: space-between;
+    gap: 16px;
 }
 
 li {
