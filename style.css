@@ -98,3 +98,22 @@ button {
     text-align: center;
     max-width: 150px;
 }
+
+/*-----Third-part-----*/
+
+.third-part {
+    background-color: rgb(165, 165, 165);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-holder {
+    display: flex;
+    flex-direction: column;
+}
+
+.quoted {
+    align-self: flex-end;
+}
