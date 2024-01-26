@@ -84,6 +84,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 52px;
+    padding: 64px;
 }
 
 .pic {
