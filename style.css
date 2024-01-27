@@ -116,4 +116,11 @@ button {
 
 .quoted {
     align-self: flex-end;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.quote {
+    width: 500px;
+    font-size: large;
 }
