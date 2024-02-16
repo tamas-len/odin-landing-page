@@ -70,7 +70,7 @@ a {
     font-size: 18px;
 }
 
-button {
+.first-text > button {
     background-color: #3882f6;    
     color:#f9faf8;
     border: none;
