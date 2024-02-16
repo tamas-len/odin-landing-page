@@ -140,4 +140,31 @@ a {
     padding: 0px;
     margin: 100px;
     border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-text-holder {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-text-content, .call-text-title {
+    color: white;
+}
+
+.call-text-title {
+    font-weight: bold;
+    font-size: large;
+}
+
+.call-holder > button {
+    font-weight: bold;
+    font-size: medium;
+    background-color: #3882f6;    
+    color:#f9faf8;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 8px;
 }
