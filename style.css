@@ -128,8 +128,16 @@ button {
 /*-----Fourth-part-----*/
 
 .fourth-part {
-    height: 200px;
+    height: 300px;
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.call-holder {
+    background-color: #3882f6;
+    height: 100px;
+    width: 700px;
+    padding: 0px;
+    margin: 100px;
+    border-radius: 12px;
 }
